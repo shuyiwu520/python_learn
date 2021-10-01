@@ -1,3 +1,6 @@
-from my_libs import my_lib1
-
-my_lib1.TestFunction("nihao")
+if __name__ == '__main__':
+    myDict = {'aa': 11}
+    myList = []
+    myList.append(myDict)
+    myList.append(myDict)
+    print(myList)
